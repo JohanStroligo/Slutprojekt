@@ -1,0 +1,2 @@
+2023-03-24
+Idag har jag gjort en mappstruktur, samt lagt in grundläggande html dokument. sedan har jag skrivit inledningen i arbetet 
