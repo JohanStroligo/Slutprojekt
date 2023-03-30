@@ -3,3 +3,6 @@ Idag har jag gjort en mappstruktur, samt lagt in grundläggande html dokument. s
 
 2023-03-28
 Idag har jag skrivit vidare på projektplanen och blir förmodligen färdig nästa gång.
+
+2023-03-30
+idag har jag färdigställt projektplanen, samt börjat titta på den grafiska manualen.
