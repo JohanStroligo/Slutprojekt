@@ -5,4 +5,7 @@ Idag har jag gjort en mappstruktur, samt lagt in grundläggande html dokument. s
 Idag har jag skrivit vidare på projektplanen och blir förmodligen färdig nästa gång.
 
 2023-03-30
-idag har jag färdigställt projektplanen, samt börjat titta på den grafiska manualen.
+Idag har jag färdigställt projektplanen, samt börjat titta på den grafiska manualen.
+
+2023-03-31
+Idag har jag påbörjat den grafiska manualen, dvs skrivit färdigt och håller på med wireframen.
