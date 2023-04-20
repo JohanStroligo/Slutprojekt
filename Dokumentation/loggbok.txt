@@ -12,3 +12,6 @@ Idag har jag påbörjat den grafiska manualen, dvs skrivit färdigt och håller 
 
 2023-04-18
 Idag har jag nedladdat github desktop samt VS code på min laptop, därefter färdigställt min grafiska manual.
+
+2023-04-20
+Idag har jag påbörjat arbetet på primärsidan.
