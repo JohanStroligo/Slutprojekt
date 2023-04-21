@@ -1,20 +1,25 @@
-body {
+body{
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#container {
+
+#container{
     display: flex;
     flex-direction: column;
     width: 80vw;
-    height: 90vh;
+    height: 100vh;
     margin: 0 auto;
 }
 
-section {
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
     width: 100%;
 }
 
-#primar_header {
+#primar_header{
     background-color: #EEE9DA;
     width: 100%;
     height: 8%;
@@ -29,7 +34,14 @@ section {
     color: white;
 
 }
-h1 {
+
+#bild_text h2, p{
+    text-align: left;
+    margin-left: 1%;
+    width: 30%; 
+}
+
+h1{
     text-align: center;
     font-size: 110%;
 }
@@ -45,41 +57,122 @@ h2{
     justify-content: space-evenly;
     margin-top: 2em;
 }
-nav {
+
+.card{
+    width: 18rem;
+}
+
+#flashcards_section{
+    background-color: #BDCDD6;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+    
+}
+
+.btn-primary{
+    margin-bottom: 20%;
+}
+.card-img-top{
+
+    width: 100%;
+    height: 12em;
+}
+
+.card-text{
+    width: 100%;
+    height: 50%;
+}
+
+nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style: none;
     justify-content: space-evenly;
-    width: 50%;
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
 
-li {}
+li {
 
-#stor_section {
+}
+
+#stor_section{
     background-color: red;
     width: 100%;
+    height: 100%;
 }
 
-picture {
+picture{
     width: 100%;
     height: 100%;
 }
 
-img {
+img{
     width: 100%;
     height: 100%;
 }
 
-#flashcards_section {
-    background-color: #BDCDD6
-}
 
-#liten_section {
+#liten_section{
     background-color: #93BFCF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 1em;
 }
 
-#primar_footer {
+#liten_section h3{
+    margin-top: 1em;
+
+}
+
+#varfor{
+    width: 50%;
+    margin-left: 1em;
+}
+
+#varfor p{
+    width: 80%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+#sociala_medier{
+    width: 50%;
+    text-align: center;
+    height: 100%;
+
+}
+
+#sociala_medier h3{
+    margin-left: 5%;
+
+}
+
+.bi{
+    height: 3em;
+    width: 3em;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: black;
+}
+
+#primar_footer{
     background-color: #6096B4;
+    height: 100%;
+    width: 100%;    
+}
+
+#primar_footer h4{
+    text-align: left;
+    margin-left: 1%;
+    font-size: 1em;
+    line-height: 100%;
+    margin: 1%;
 }

@@ -17,4 +17,7 @@ Idag har jag nedladdat github desktop samt VS code på min laptop, därefter fä
 Idag har jag påbörjat arbetet på primärsidan.
 
 2023-04-21
-idag har jag arbetat vidare med primärsidan, är förmodligen färdig nästa gång.
+Idag har jag arbetat vidare med primärsidan, är förmodligen färdig nästa gång.
+
+2023-04-21 (01:25)
+Nu har jag färdigställt primärsidan, skall påbörja arbetet på nästa sida.
