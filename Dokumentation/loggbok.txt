@@ -21,3 +21,6 @@ Idag har jag arbetat vidare med primärsidan, är förmodligen färdig nästa g�
 
 2023-04-21 (01:25)
 Nu har jag färdigställt primärsidan, skall påbörja arbetet på nästa sida.
+
+2023-04-21 (02:33)
+Nu har jag lagt grunderna för "våra bilar" sidan, beskrivningar samt sorterings funktionen saknas ännu.
