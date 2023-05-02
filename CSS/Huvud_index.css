@@ -16,6 +16,11 @@ a{
     text-decoration: none;
     color: black;
 }
+
+#primar_header a:hover{
+    box-shadow: 0.1em 0.1em 0.1em #ccc;
+}
+
 section{
     width: 100%;
 }

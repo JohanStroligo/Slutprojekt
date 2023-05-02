@@ -30,3 +30,6 @@ Idag har jag endast arbetat lite, jag har fixat färdigt alla flashcards på "v�
 
 2023-04-28
 Idag har jag arbetat vidare med "våra bilar" sidan, bör vara färdig nästa gång.
+
+2023-05-02
+Idag har jag nästan färdigställt sorteringsfunktionen på "våra bilar" sidan.

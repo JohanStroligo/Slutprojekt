@@ -16,6 +16,12 @@ a{
     text-decoration: none;
     color: black;
 }
+
+a:hover{
+    box-shadow: 0.1em 0.1em 0.1em #ccc;
+}
+
+
 section{
     width: 100%;
 }
