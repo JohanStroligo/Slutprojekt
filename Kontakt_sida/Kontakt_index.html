@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilar_index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/Bilar_index.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header id="primar_header">
+
+            <h1>
+                <a href="../Huvud_sida/Huvud_index.html"> JUANS AUTOMOBILES </a>
+            </h1>
+
+            <nav>
+                <li> <a href="../Bilar_sida/Bilar_index.html"> Våra bilar </a> </li>
+                <li> <a href="../Kontakt_sida/Kontakt_index.html"> Kontakt </a> </li>
+                <li> <a href="../Huvud_sida/Huvud_index.html#varfor"> Varför oss? </a> </li>
+            </nav>
+
+        </header>
+
+        <section id="liten_section">
+
+            <h2> VÅRA BILAR: </h2>
+
+        </section>
+
+        <section id="stor_section">
+
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+            <div class="bs-callout bs-callout-warning hidden">
+                <h4>Oh snap!</h4>
+                <p>This form seems to be invalid :(</p>
+              </div>
+              
+              <div class="bs-callout bs-callout-info hidden">
+                <h4>Yay!</h4>
+                <p>Everything seems to be ok :)</p>
+              </div>
+              
+              <form id="demo-form" data-parsley-validate="">
+                <label for="fullname">Full Name * :</label>
+                <input type="text" class="form-control" name="fullname" required="">
+              
+                <label for="email">Email * :</label>
+                <input type="email" class="form-control" name="email" data-parsley-trigger="change" required="">
+              
+                <label for="contactMethod">Preferred Contact Method *:</label>
+                <p>
+                  Email: <input type="radio" name="contactMethod" id="contactMethodEmail" value="Email" required="">
+                  Phone: <input type="radio" name="contactMethod" id="contactMethodPhone" value="Phone">
+                </p>
+              
+                <label for="hobbies">Hobbies (Optional, but 2 minimum):</label>
+                <p>
+                  Skiing <input type="checkbox" name="hobbies[]" id="hobby1" value="ski" data-parsley-mincheck="2"><br>
+                  Running <input type="checkbox" name="hobbies[]" id="hobby2" value="run"><br>
+                  Eating <input type="checkbox" name="hobbies[]" id="hobby3" value="eat"><br>
+                  Sleeping <input type="checkbox" name="hobbies[]" id="hobby4" value="sleep"><br>
+                  Reading <input type="checkbox" name="hobbies[]" id="hobby5" value="read"><br>
+                  Coding <input type="checkbox" name="hobbies[]" id="hobby6" value="code"><br>
+                </p>
+              
+                <p>
+                <label for="heard">Heard about us via *:</label>
+                <select id="heard" required="">
+                  <option value="">Choose..</option>
+                  <option value="press">Press</option>
+                  <option value="net">Internet</option>
+                  <option value="mouth">Word of mouth</option>
+                  <option value="other">Other..</option>
+                </select>
+                </p>
+              
+                <p>
+                <label for="message">Message (20 chars min, 100 max) :</label>
+                <textarea id="message" class="form-control" name="message" data-parsley-trigger="keyup" data-parsley-minlength="20" data-parsley-maxlength="100" data-parsley-minlength-message="Come on! You need to enter at least a 20 character comment.." data-parsley-validation-threshold="10"></textarea>
+                </p>
+              
+                <br>
+                <input type="submit" class="btn btn-default" value="Skicka">
+              
+                
+              </form>
+              
+
+        </section>
+
+        <footer id="primar_footer">
+
+          <h4>
+            JUAN AUTOMOBILES INC.
+          </p4>
+
+        </footer>
+
+
+
+    </div>
+
+
+    <script src="../JavaScript/Bilar_java.js"></script>
+    <script src="jquery.js"></script>
+    <script src="parsley.min.js"></script>
+
+</body>
+
+
+</html>
