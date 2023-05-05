@@ -65,6 +65,28 @@ nav{
     width: 100%;
 }
 
+#carouselExampleCaptions{
+    width: 60%;
+    height: 50%;
+    margin: 1% auto;
+}
+
+img{
+    height: 40em;
+}
+
+#Kontaktformular{
+    background-color:#BDCDD6;
+    width: 20%;
+    margin-top: 10%;
+}
+
+form{
+    margin-bottom: 10%;
+    width: 30%;
+    margin:auto;
+}
+
 #primar_footer{
     background-color: #6096B4;
     width: 100%;    

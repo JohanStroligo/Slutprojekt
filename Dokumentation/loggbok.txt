@@ -36,3 +36,6 @@ Idag har jag nästan färdigställt sorteringsfunktionen på "våra bilar" sidan
 
 2023-05-04
 Idag har jag färdigställt "våra bilar" sidan, för att sedan påbörja "kontakt" sidan. jag har även valt att ändra det javascript bibliotek jag använder då det förra endast hade grafer, vilket jag inte längre behövde efter en ändring kring planerna på "kontakta" sidan.
+
+2023-05-05
+idag har jag arbetat vidare på "kontakt" sidan, den bör vara färdig nästa gång.
