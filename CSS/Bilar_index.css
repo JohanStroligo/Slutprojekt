@@ -18,7 +18,8 @@ a{
 }
 
 a:hover{
-    box-shadow: 0.1em 0.1em 0.1em #ccc;
+    box-shadow: 0.5em 0.5em 0.5em #ccc;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 section{
@@ -31,6 +32,8 @@ section{
     position: sticky;
     top: 0;
     z-index: 1;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 
@@ -54,6 +57,7 @@ nav{
     display: flex;
     flex-direction:column ;
     background-color:#BDCDD6;
+    padding-bottom: 1%;
 }
 
 #liten_section h2{

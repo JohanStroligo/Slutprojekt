@@ -38,4 +38,7 @@ Idag har jag nästan färdigställt sorteringsfunktionen på "våra bilar" sidan
 Idag har jag färdigställt "våra bilar" sidan, för att sedan påbörja "kontakt" sidan. jag har även valt att ändra det javascript bibliotek jag använder då det förra endast hade grafer, vilket jag inte längre behövde efter en ändring kring planerna på "kontakta" sidan.
 
 2023-05-05
-idag har jag arbetat vidare på "kontakt" sidan, den bör vara färdig nästa gång.
+Idag har jag arbetat vidare på "kontakt" sidan, den bör vara färdig nästa gång.
+
+2023-05-18
+Hitills idag har jag gjort färdigt första sidan (inklusive media queryes), det var även en del kod som förbättrades för att hjälpa vid omskalning. Loggbok glömdes även skrivas vid förra lektionen, då jag glömde. Under lektionen experimenterade jag med javascript över flera sidor, detta misslyckades och därav kommer en liten del av reflektionsraporten tillänglas till det. 

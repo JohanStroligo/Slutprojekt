@@ -7,85 +7,8 @@ body{
 #container{
     display: flex;
     flex-direction: column;
-    width: 80vw;
     height: 100vh;
     margin: 0 auto;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-#primar_header a:hover{
-    box-shadow: 0.1em 0.1em 0.1em #ccc;
-}
-
-section{
-    width: 100%;
-}
-
-#primar_header{
-    background-color: #EEE9DA;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
-
-#bild_text{
-    z-index: 1;
-    top: -100%;
-    position: relative;
-    color: white;
-
-}
-
-#bild_text h2, p{
-    text-align: left;
-    margin-left: 1%;
-    width: 30%; 
-}
-
-h1{
-    text-align: center;
-    font-size: 110%;
-}
-
-h2{
-    text-align: center;
-    margin-top: 1em;
-}
-
-#flashcards{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2em;
-    width: 100%;
-}
-
-.card{
-    width: 18em;
-    height: 25em;
-}
-
-#flashcards_section{
-    background-color: #BDCDD6;
-    width: 100%;
-    padding-bottom: 5%;
-    
-}
-
-.card-img-top{
-
-    width: 100%;
-    height: 12em;
-}
-
-.card-text{
-    width: 100%;
-    height: 50%;
 }
 
 nav{
@@ -96,6 +19,88 @@ nav{
     justify-content: space-evenly;
     width: 100%;
     margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#primar_header a:hover{
+    box-shadow: 0.5em 0.5em 0.5em #ccc;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
+}
+
+section{
+    width: 100%;
+}
+
+#bild_text h2, p{
+    text-align: left;
+    margin-left: 1%;
+}
+
+#primar_header{
+    background-color: #EEE9DA;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#bild_text{
+    z-index: 1;
+    top: -100%;
+    position: relative;    
+}
+
+#flashcards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 110%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+.card{
+    padding-bottom: 1%;
+    overflow: auto;
+}
+
+
+
+#flashcards_section{
+    background-color: #BDCDD6;
+    width: 100%;
+    padding-bottom: 5%;
+    
+}
+
+.card-img-top{
+    width: 100%;
+    height: 50%;
+}
+
+.card-text{
+    width: 100%;
+    height: 50%;
+}
+
+.card-text p h5{
+    font-size: 1vw;
 }
 
 #stor_section{
@@ -116,43 +121,31 @@ img{
     background-color: #93BFCF;
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 1em;
 }
 
 #liten_section h3{
     margin-top: 1em;
-
+    
 }
 
-#varfor{
-    width: 50%;
-    margin-left: 1em;
-}
 
 #varfor p{
-    width: 80%;
     margin-top: 5%;
 }
 
 #sociala_medier{
     width: 50%;
     text-align: center;
-
+    
 }
 
-#sociala_medier h3{
-    margin-left: 5%;
-
-}
 
 .bi{
     height: 3em;
     width: 3em;
-    justify-content: center;
     margin-top: 10%;
-    margin-left: 5%;
     color: black;
 }
 
@@ -167,4 +160,103 @@ img{
     font-size: 1em;
     line-height: 100%;
     margin: 1%;
+}
+
+@media (min-width: 769px) {
+    body{
+        background-color: red;
+    }
+
+    #container{
+        width: 80vw;
+    }
+    
+    #bild_text h2, p{
+        width: 30%; 
+    }
+    
+    #flashcards{
+        flex-direction: row;
+
+    }
+
+    .card{
+        width: 25%;
+    }
+
+    #bild_text{
+        color: white;
+    }
+
+    #liten_section{
+        flex-direction: row;
+    }
+
+    #varfor{
+        width: 50%;
+        margin-left: 1em;
+
+    }
+
+    #varfor p{
+        width: 80%;
+    }
+
+    #sociala_medier h3{
+        margin-left: 5%;
+        
+    }
+
+    .bi{
+        margin-left: 5%;
+
+    }
+}
+
+
+@media (max-width: 769px) {
+    body{
+        background: green;
+    }
+    
+    #container{
+        width: 100vw;
+    }
+
+    #bild_text h2, p{
+        width: 90%; 
+    }
+
+    #flashcards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 60%;
+        margin-top: 3%;
+    }
+
+    #bild_text{
+        color: red;
+    }
+
+    #liten_section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #varfor{
+        width: 90%;
+        text-align: center;
+    }
+
+    #varfor p{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .bi{
+        margin-bottom: 10%;
+    }   
 }
