@@ -42,3 +42,6 @@ Idag har jag arbetat vidare på "kontakt" sidan, den bör vara färdig nästa g�
 
 2023-05-18
 Hitills idag har jag gjort färdigt första sidan (inklusive media queryes), det var även en del kod som förbättrades för att hjälpa vid omskalning. Loggbok glömdes även skrivas vid förra lektionen, då jag glömde. Under lektionen experimenterade jag med javascript över flera sidor, detta misslyckades och därav kommer en liten del av reflektionsraporten tillänglas till det. 
+
+2023-05-21
+Idag har jag trots feber arbetat på sidan, jag har färdigställt sidan "Våra bilar". Jag har även påbörjat kontakta oss sidan, denna tilsammans med slutdokumentet är förhoppningsvis färdiga imorgon.
