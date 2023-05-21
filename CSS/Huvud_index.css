@@ -32,10 +32,6 @@ a{
     
 }
 
-section{
-    width: 100%;
-}
-
 #bild_text h2, p{
     text-align: left;
     margin-left: 1%;
@@ -80,8 +76,6 @@ h2{
     overflow: auto;
 }
 
-
-
 #flashcards_section{
     background-color: #BDCDD6;
     width: 100%;
@@ -116,7 +110,6 @@ img{
     height: 100%;
 }
 
-
 #liten_section{
     background-color: #93BFCF;
     width: 100%;
@@ -130,7 +123,6 @@ img{
     
 }
 
-
 #varfor p{
     margin-top: 5%;
 }
@@ -140,7 +132,6 @@ img{
     text-align: center;
     
 }
-
 
 .bi{
     height: 3em;
@@ -163,9 +154,6 @@ img{
 }
 
 @media (min-width: 769px) {
-    body{
-        background-color: red;
-    }
 
     #container{
         width: 80vw;
@@ -177,7 +165,6 @@ img{
     
     #flashcards{
         flex-direction: row;
-
     }
 
     .card{
@@ -215,10 +202,6 @@ img{
 
 
 @media (max-width: 769px) {
-    body{
-        background: green;
-    }
-    
     #container{
         width: 100vw;
     }

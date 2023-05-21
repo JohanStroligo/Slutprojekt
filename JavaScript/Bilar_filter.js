@@ -9,12 +9,17 @@ let halvkombicard = document.getElementsByClassName("halvkombicard");
 let sedancard = document.getElementsByClassName("sedancard");
 let sportcard = document.getElementsByClassName("sportcard");
 let touringcard = document.getElementsByClassName("touringcard")
+let box1 = document.getElementById("box1");
+let box2 = document.getElementById("box2");
 
 allaknapp.addEventListener("click", function()
 {
     for(let i=0; i<9;i++){
         allacard[i].style.display="flex";
     }
+
+    box1.style.display="flex";
+    box2.style.display="flex";
     
 })
 
@@ -40,6 +45,9 @@ touringknapp.addEventListener("click", function()
         allacard[i].style.display="none";
     }
     
+    box1.style.display="none";
+    box2.style.display="none";
+
     touringnumber=touringcard.length;
 
     for(let i=0; i<touringnumber; i++){
@@ -53,7 +61,10 @@ sportknapp.addEventListener("click", function()
 {
     for(let i=0; i<9;i++){
         allacard[i].style.display="none";
+        
     }
+    
+    box1.style.display="none";
     
     sportnumber=sportcard.length;
 

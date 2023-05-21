@@ -7,7 +7,6 @@ body{
 #container{
     display: flex;
     flex-direction: column;
-    width: 80vw;
     height: 100vh;
     margin: 0 auto;
 }
@@ -20,10 +19,6 @@ a{
 a:hover{
     box-shadow: 0.5em 0.5em 0.5em #ccc;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-section{
-    width: 100%;
 }
 
 #primar_header{
@@ -66,28 +61,20 @@ nav{
 #stor_section{
     background-color: #93BFCF;
     width: 100%;
-}
-
-#carouselExampleCaptions{
-    width: 60%;
     height: 50%;
-    margin: 1% auto;
-}
-
-img{
-    height: 40em;
 }
 
 #Kontaktformular{
     background-color:#BDCDD6;
-    margin-top: 10%;
 }
 
 
 form{
     margin-bottom: 10%;
-    width: 30%;
+    width: 60%;
     margin:auto;
+    height: 100%;
+    overflow: auto;
 }
 
 #primar_footer{
@@ -101,4 +88,33 @@ form{
     font-size: 1em;
     line-height: 100%;
     margin: 1%;
+}
+
+@media (min-width: 769px) {
+    #container{
+        width: 80vw;
+    }
+
+    #carouselExampleCaptions, img{
+        width: 40em;
+        height: 20em;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 769px) {
+    #container{
+        width: 100vw;
+    }
+
+    #carouselExampleCaptions{
+        width: 100%;
+        height: 100%;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+    }
 }
