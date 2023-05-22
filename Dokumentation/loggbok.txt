@@ -45,3 +45,6 @@ Hitills idag har jag gjort färdigt första sidan (inklusive media queryes), det
 
 2023-05-21
 Idag har jag trots feber arbetat på sidan, jag har färdigställt sidan "Våra bilar". Jag har även påbörjat kontakta oss sidan, denna tilsammans med slutdokumentet är förhoppningsvis färdiga imorgon.
+
+2023-05-22
+Idag har jag färdigställt alla hemsidor och den tekniska dokumentationen. Endast reflektionsraporten kvar.
